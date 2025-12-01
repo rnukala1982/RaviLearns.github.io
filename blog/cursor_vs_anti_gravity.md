@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cursor vs Anti Gravity vs Gemini 3.x — A Practical Comparison
+---
+
 # Cursor vs Anti Gravity vs Gemini 3.x — A Practical Comparison
 
 Last updated: November 2025

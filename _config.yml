@@ -7,9 +7,9 @@ author: "Ravi Kiran Nukala"
 nav:
   - name: "Home"
     link: /
+  - name: "Introduction"
+    link: /introduction
   - name: "Blog"
     link: /blog
-  - name: "About"
-    link: /about
 
 markdown: kramdown
