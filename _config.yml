@@ -1,0 +1,15 @@
+title: "Ravi Learns"
+description: "My Learnings • Engineering • AI • Leadership • Experiments"
+theme: jekyll-theme-minimal
+author: "Ravi Kiran Nukala"
+
+# Navigation links
+nav:
+  - name: "Home"
+    link: /
+  - name: "Blog"
+    link: /blog
+  - name: "About"
+    link: /about
+
+markdown: kramdown
