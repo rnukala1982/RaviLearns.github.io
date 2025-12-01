@@ -3,52 +3,57 @@ layout: default
 title: Disclaimer
 ---
 
-# Disclaimer
+# A Quick Note
 
-This website, **Ravi Learns**, is a personal learning journal and knowledge-sharing platform. The content published here reflects my personal learning journey, experiences, opinions, and insights.
+Hey there! Thanks for stopping by **Ravi Learns**. I wanted to share a few things about this site and what you'll find here.
 
-## Purpose
+## What This Site Is
 
-This site is intended **strictly for educational and learning purposes only**. The information, articles, code samples, and opinions shared here are:
+This is my personal learning journal—a place where I share what I'm learning, experimenting with, and thinking about. Everything here reflects my own experiences, opinions, and insights from my journey in technology, AI, and engineering.
 
-- Personal learnings and reflections from my work and experiments
-- My own opinions and perspectives based on my experience
-- Educational content meant to share knowledge and insights
-- Not official statements or endorsements from any organization
+Think of it as my public notebook where I document learnings, not a formal educational institution or professional consultancy.
 
-## Use of Content
+## What This Site Isn't
 
-**This content should be used for learning purposes only.** It is not intended for:
+This site is **for learning and educational purposes only**. It's not:
 
-- Commercial use without permission
-- Legal, financial, or professional advice
-- Production implementations without proper review and testing
-- Any purpose other than educational learning
+- Professional, legal, or financial advice
+- Official statements from any company or organization
+- Production-ready code or solutions (always test and review!)
+- A substitute for your own research and judgment
 
-## No Warranties
+## My Approach
 
-The information on this website is provided "as is" without any representations or warranties, express or implied. I make no representations or warranties in relation to:
+I share things that have worked for me, but your situation might be different. What I write about comes from my experience, and I'm always learning. So:
 
-- The accuracy or completeness of the information
-- The suitability of any code, examples, or solutions for your specific use case
-- The reliability or performance of any techniques or tools discussed
+- **Test everything yourself** — Don't just copy and paste. Understand it, test it, and adapt it to your needs.
+- **Do your own research** — I might miss something, or things might have changed since I wrote about them.
+- **Use your judgment** — What works for me might not work for you, and that's totally okay.
 
-## Your Responsibility
+## About Opinions
 
-You are solely responsible for:
+All opinions here are mine and mine alone. They don't represent my employer, clients, or anyone else. I'm just sharing my perspective based on what I've learned along the way.
 
-- Verifying any information before using it
-- Testing and reviewing any code or solutions in your own environment
-- Ensuring compliance with applicable laws and regulations
-- Making your own informed decisions based on your specific circumstances
+## Code & Examples
 
-## Opinions and Views
+Any code samples, examples, or solutions I share are for learning purposes. They're not production-ready out of the box. Always:
 
-All opinions expressed on this site are my own and do not necessarily reflect the views of my employer, clients, or any other organization I may be associated with.
+- Review and understand the code
+- Test it in your environment
+- Consider security, performance, and your specific requirements
+- Make sure it complies with your organization's policies
 
-## Contact
+## External Links
 
-If you have questions about this disclaimer or the content on this site, please feel free to reach out through the contact information provided.
+Sometimes I link to other sites or resources. I'm not responsible for their content, privacy practices, or what happens when you visit them. Use your judgment.
+
+## The Bottom Line
+
+I'm sharing what I learn because I believe in learning in public and helping others. But you're responsible for how you use this information. I can't guarantee everything is perfect, up-to-date, or right for your situation.
+
+If you find something helpful, great! If you have questions or feedback, I'd love to hear from you. But remember—this is a learning journey, not a definitive guide.
+
+Thanks for understanding, and happy learning!
 
 ---
 

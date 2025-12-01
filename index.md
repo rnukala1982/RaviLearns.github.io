@@ -5,9 +5,6 @@ title: Home
 
 <div class="hero-section">
   <div class="hero-content">
-    <div class="hero-image">
-      <img src="{{ '/1687272439882.jpeg' | relative_url }}" alt="Ravi Kiran Nukala" class="profile-image">
-    </div>
     <div class="hero-text">
       <h1 class="hero-title">Hey, I'm <span class="highlight">Ravi</span>.</h1>
       <h2 class="hero-subtitle">aka Ravi Learns</h2>
