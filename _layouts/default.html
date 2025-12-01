@@ -50,12 +50,14 @@
           <div class="sidebar-section">
             <h3 class="sidebar-heading">Connect</h3>
             <div class="social-links">
-              <a href="https://github.com/{{ site.github.username | default: 'rnukala1982' }}" class="social-link" target="_blank" rel="noopener">
+              <a href="https://github.com/rnukala1982" class="social-link" target="_blank" rel="noopener">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/{{ site.linkedin.username | default: '' }}" class="social-link" target="_blank" rel="noopener">
+              {% if site.linkedin %}
+              <a href="https://linkedin.com/in/{{ site.linkedin }}" class="social-link" target="_blank" rel="noopener">
                 LinkedIn
               </a>
+              {% endif %}
             </div>
           </div>
 
