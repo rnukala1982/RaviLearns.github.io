@@ -9,14 +9,14 @@ and interesting experiments that help me grow as a builder and as a leader.
 
 ## About Me  
 
-I'm **Ravi Kiran Nukala**, a Sr Director of Software Engineering based in Hayward, California. I have over two decades of experience in building scalable cloud platforms and leading engineering teams. I enjoy exploring AI, agentic workflows, and sharing what I learn along the way.  
+I'm **Ravi Kiran Nukala**, a Sr Director of Software Engineering based in SF Bay Area, California. I have over two decades of experience in building scalable cloud platforms and leading engineering teams. I enjoy exploring AI, agentic workflows, and sharing what I learn along the way.  
 
 ---  
 
 ## ✨ What You’ll Find Here  
 
 ### **🔹 AI & Agentic Workflows**  
-Experiments with Gemini, OpenAI, Claude, CrewAI, MCP, OB1, RAG and more.  
+Experiments with Gemini, OpenAI, Claude, CrewAI, MCP, RAG and more.  
 
 ### **🔹 Software Engineering Learnings**  
 Architectures, patterns, code samples, cloud, DevOps, and performance tuning.  
