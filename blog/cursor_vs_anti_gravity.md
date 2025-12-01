@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cursor vs Anti Gravity vs Gemini 3.x — A Practical Comparison
+topics: [AI & LLMs, Engineering]
 ---
 
 # Cursor vs Anti Gravity vs Gemini 3.x — A Practical Comparison

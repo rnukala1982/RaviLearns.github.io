@@ -30,9 +30,37 @@
           
           <nav class="main-nav">
             {% for item in site.nav %}
-              <a href="{{ item.link | relative_url }}" class="nav-link {% if page.url == item.link %}active{% endif %}">
-                {{ item.name }}
-              </a>
+              <div class="nav-item">
+                <a href="{{ item.link | relative_url }}" class="nav-link {% if page.url == item.link or page.url contains item.link %}active{% endif %}">
+                  {{ item.name }}
+                </a>
+                {% if item.topics %}
+                  <div class="nav-topics">
+                    {% for topic in item.topics %}
+                      {% if topic.posts %}
+                        <div class="nav-topic-group">
+                          <div class="nav-topic-header">{{ topic.name }}</div>
+                          <div class="nav-children">
+                            {% for post in topic.posts %}
+                              <a href="{{ post.link | relative_url }}" class="nav-child-link {% if page.url == post.link %}active{% endif %}">
+                                {{ post.name }}
+                              </a>
+                            {% endfor %}
+                          </div>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                {% elsif item.children %}
+                  <div class="nav-children">
+                    {% for child in item.children %}
+                      <a href="{{ child.link | relative_url }}" class="nav-child-link {% if page.url == child.link %}active{% endif %}">
+                        {{ child.name }}
+                      </a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
             {% endfor %}
           </nav>
 
@@ -53,11 +81,9 @@
               <a href="https://github.com/rnukala1982" class="social-link" target="_blank" rel="noopener">
                 GitHub
               </a>
-              {% if site.linkedin %}
-              <a href="https://linkedin.com/in/{{ site.linkedin }}" class="social-link" target="_blank" rel="noopener">
+              <a href="https://www.linkedin.com/in/nukalaravi/" class="social-link" target="_blank" rel="noopener">
                 LinkedIn
               </a>
-              {% endif %}
             </div>
           </div>
 

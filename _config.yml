@@ -2,6 +2,7 @@ title: "Ravi Learns"
 description: "My Learnings • Engineering • AI • Leadership • Experiments"
 theme: jekyll-theme-minimal
 author: "Ravi Kiran Nukala"
+linkedin: "nukalaravi"
 
 # Navigation links
 nav:
@@ -11,5 +12,14 @@ nav:
     link: /introduction
   - name: "Blog"
     link: /blog
+    topics:
+      - name: "AI & LLMs"
+        posts:
+          - name: "Cursor vs Anti-Gravity"
+            link: /blog/cursor_vs_anti_gravity
+      - name: "Engineering"
+        posts:
+          - name: "Cursor vs Anti-Gravity"
+            link: /blog/cursor_vs_anti_gravity
 
 markdown: kramdown
