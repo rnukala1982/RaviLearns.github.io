@@ -34,21 +34,21 @@
                 <a href="{{ item.link | relative_url }}" class="nav-link {% if page.url == item.link or page.url contains item.link %}active{% endif %}">
                   {{ item.name }}
                 </a>
-                {% if item.topics %}
-                  <div class="nav-topics">
-                    {% for topic in item.topics %}
-                      {% if topic.posts %}
-                        <div class="nav-topic-group">
-                          <div class="nav-topic-header">{{ topic.name }}</div>
-                          <div class="nav-children">
-                            {% for post in topic.posts %}
-                              <a href="{{ post.link | relative_url }}" class="nav-child-link {% if page.url == post.link %}active{% endif %}">
-                                {{ post.name }}
-                              </a>
+                {% if item.posts %}
+                  <div class="nav-children">
+                    {% for post in item.posts %}
+                      <div class="nav-post-item">
+                        <a href="{{ post.link | relative_url }}" class="nav-child-link {% if page.url == post.link %}active{% endif %}">
+                          {{ post.name }}
+                        </a>
+                        {% if post.topics %}
+                          <div class="nav-post-topics">
+                            {% for topic in post.topics %}
+                              <span class="nav-post-topic-tag">{{ topic }}</span>
                             {% endfor %}
                           </div>
-                        </div>
-                      {% endif %}
+                        {% endif %}
+                      </div>
                     {% endfor %}
                   </div>
                 {% elsif item.children %}
