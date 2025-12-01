@@ -6,15 +6,15 @@ linkedin: "nukalaravi"
 
 # Navigation links
 nav:
-  - name: "Home"
-    link: /
-  - name: "Introduction"
-    link: /introduction
   - name: "Blog"
-    link: /blog
+    link: /
     posts:
       - name: "Cursor vs Anti-Gravity"
         link: /blog/cursor_vs_anti_gravity
         topics: ["AI & LLMs", "Engineering"]
+  - name: "Introduction"
+    link: /introduction
+  - name: "Disclaimer"
+    link: /disclaimer
 
 markdown: kramdown

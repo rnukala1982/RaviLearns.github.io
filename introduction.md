@@ -7,7 +7,7 @@ title: Introduction
 
 ![Ravi Kiran Nukala](1687272439882.jpeg)
 
-I'm **Ravi Kiran Nukala**, a Senior Director of Software Engineering based in Hayward, California. With over two decades of experience in software engineering, I've focused on building scalable SaaS platforms, leading global engineering teams, and driving innovation in AI and cloud technologies.
+I'm **Ravi Kiran Nukala**, an AI Enthusiast and Engineer at Heart, based in Fremont, California. With over two decades of experience in software engineering, I've focused on building scalable SaaS platforms, leading global engineering teams, and driving innovation in AI and cloud technologies.
 
 I created **Ravi Learns** to document my ongoing exploration of:
 - AI & LLMs
